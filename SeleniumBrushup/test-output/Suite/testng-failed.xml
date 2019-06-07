@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="email_id" value="sanjayspear@gmail.xom"/>
+  <parameter name="uname" value="Sanjay"/>
+  <parameter name="pwd" value="abc123"/>
+  <test thread-count="5" name="Test">
+    <parameter name="email_id" value="sanjayspear@gmail.xom"/>
+    <parameter name="uname" value="Sanjay"/>
+    <parameter name="pwd" value="abc123"/>
+    <classes>
+      <class name="trailAndError.ReadDataFromXML"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
